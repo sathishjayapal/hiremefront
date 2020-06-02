@@ -7,8 +7,8 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 9.1.x   | :Angular: |
-| 10.1.x   | :Node:                |
+| 9.1.x   | Angular |
+| 10.1.x   | NodeJS               |
 
 ## Reporting a Vulnerability
 
