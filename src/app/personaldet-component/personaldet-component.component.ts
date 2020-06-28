@@ -10,6 +10,7 @@ export class PersonaldetComponentComponent implements OnInit {
   pageSubtitle = 'Current projects';
 
   constructor() {
+    console.log('The constructor call')
   }
 
   ngOnInit(): void {
