@@ -28,7 +28,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'hiremefront'
+        app-name: 'hiremefront-200618155630'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2f6d3a4d6318450cbc08d3caf63ed44a }}
         package: .
