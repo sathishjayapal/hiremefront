@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - newhiremefront
+name: Build and deploy Node.js app to Azure Web App - hiremefront
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'newhiremefront'
+        app-name: 'hiremefront'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_6e303f2daf5a414e8842f2e35cb85125 }}
         package: .
